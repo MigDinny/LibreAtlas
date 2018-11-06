@@ -1,0 +1,27 @@
+body {
+
+    background-color: #DADADA;
+
+}
+
+#content {
+    margin-top: 30px;
+}
+
+#api_keys_table {
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#markers_list {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+th {
+    white-space: nowrap;
+}
+
+#generate_api_key_button {
+    margin-left: 20px;
+}

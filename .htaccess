@@ -1,0 +1,7 @@
+# THIS IS UNDER DEVELOPMENT AND THERE ARE A LOT OF BUGS HERE, PLEASE DON'T USE REWRITED URLS FOR NOW
+
+#RewriteEngine On    # Turn on the rewriting engine
+#RewriteRule    ^dashboard/?$    ?area=dashboard    [NC,L]    # Process dashboard area
+#RewriteRule    ^dashboard/login/?$    ?area=dashboard&action=login    [NC,L]    # Process dashboard login area
+#RewriteRule ^([A-Za-z0-9]+) ?area=$1 [QSA,L]
+#RewriteRule "(.*)" "?area=$1" [PT,QSA]
