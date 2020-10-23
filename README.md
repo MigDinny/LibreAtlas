@@ -3,6 +3,8 @@
 
 An Atlas for LibreHealth's active services around the world.
 
+This project was made during Google Code-in 2017. This isn't used anywhere. Feel free to use it for any purpose.
+
 It has a public map showing all enabled markers. There is also a dashboard allowing the control of API-keys and markers for admin.
 
 ## Installation
