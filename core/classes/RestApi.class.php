@@ -6,6 +6,7 @@
  * 	- Marker addition/removal
  *
  * @author MigDinny (https://github.com/MigDinny)
+ * @date 
  */
 
 class RestApi {
@@ -46,7 +47,7 @@ class RestApi {
 
 		// API KEYS CURRENTLY DISABLED FOR TESTING PURPOSES
 		return isset($this->APIKey) && !empty($this->APIKey) && $query != null;
-		//return true;
+		// return true; // use this for debugging purposes ONLY
 	}
 
 	/* This handles all possible requests from the user (like add a marker, remove, etc) */
